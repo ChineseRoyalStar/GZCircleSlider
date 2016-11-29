@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		229393571DE88BCE001B5741 /* GZCircleSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 229393561DE88BCE001B5741 /* GZCircleSlider.m */; };
 		22CA2FA61DE6B54E00F44AA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CA2FA51DE6B54E00F44AA8 /* main.m */; };
 		22CA2FA91DE6B54E00F44AA8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CA2FA81DE6B54E00F44AA8 /* AppDelegate.m */; };
 		22CA2FAC1DE6B54E00F44AA8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CA2FAB1DE6B54E00F44AA8 /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		229393551DE88BCE001B5741 /* GZCircleSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZCircleSlider.h; sourceTree = "<group>"; };
+		229393561DE88BCE001B5741 /* GZCircleSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZCircleSlider.m; sourceTree = "<group>"; };
 		22CA2FA11DE6B54E00F44AA8 /* GZCircleSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GZCircleSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22CA2FA51DE6B54E00F44AA8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		22CA2FA71DE6B54E00F44AA8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -39,6 +42,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		229393541DE88BB8001B5741 /* GZCircleSlider */ = {
+			isa = PBXGroup;
+			children = (
+				229393551DE88BCE001B5741 /* GZCircleSlider.h */,
+				229393561DE88BCE001B5741 /* GZCircleSlider.m */,
+			);
+			path = GZCircleSlider;
+			sourceTree = "<group>";
+		};
 		22CA2F981DE6B54D00F44AA8 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +70,7 @@
 		22CA2FA31DE6B54E00F44AA8 /* GZCircleSlider */ = {
 			isa = PBXGroup;
 			children = (
+				229393541DE88BB8001B5741 /* GZCircleSlider */,
 				22CA2FA71DE6B54E00F44AA8 /* AppDelegate.h */,
 				22CA2FA81DE6B54E00F44AA8 /* AppDelegate.m */,
 				22CA2FAA1DE6B54E00F44AA8 /* ViewController.h */,
@@ -151,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22CA2FAC1DE6B54E00F44AA8 /* ViewController.m in Sources */,
+				229393571DE88BCE001B5741 /* GZCircleSlider.m in Sources */,
 				22CA2FA91DE6B54E00F44AA8 /* AppDelegate.m in Sources */,
 				22CA2FA61DE6B54E00F44AA8 /* main.m in Sources */,
 			);
@@ -309,6 +323,7 @@
 				22CA2FBA1DE6B54E00F44AA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

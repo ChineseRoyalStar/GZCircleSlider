@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "GZCircleSlider.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    GZCircleSlider *slider = [[GZCircleSlider alloc]initWithFrame:CGRectMake(0, 0, 300, 300)];
+    slider.center = self.view.center;
+    [self.view addSubview:slider];
 }
 
 
